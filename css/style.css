@@ -1,0 +1,281 @@
+/* RESET CSS ----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* TIPOGRAFIA ----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+/* HEADER ----------------------------*/
+.nav-link:hover {
+    color: red;
+}
+.nav-right {
+    display: flex;
+    justify-content: end;
+}
+@media (max-width: 992px) {
+    .nav-right {
+        justify-content: center;
+        text-align: center;
+        font-size: larger;
+    }
+}
+.navbar-toggler {
+    margin-right: 20px;
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.fondo-header {
+    background-image: url(../imagenes/bg.jpg);
+    height: 350px;
+}
+@media (max-width: 768px) {
+    .fondo-header {
+        height: 250px;
+    }
+}
+.texto-header {
+    color: rgba(231, 227, 227, 0.69);
+    font-style: italic;
+}
+.logo-header {
+    width: 50px;
+    margin-left: 20px;
+}
+.logo-texto {
+    padding-top: 50px;
+}
+/* QUIENES SOMOS ----------------------------*/
+#quienes-somos {
+    background-color: rgb(244, 244, 244);
+    padding: 40px 0 40px 0;
+}
+#quienes-somos li {
+    list-style: none;
+}
+#quienes-somos li i {
+    color: red;
+}
+#quienes-somos a {
+    color: red;
+}
+.texto-quienes-somos {
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+.imagen-quienes-somos {
+    border-radius: 10px;
+}
+@media (max-width: 992px) {
+    .descripcion-quienes-somos {
+        margin-top: 30px;
+    }
+}
+.subtitulo {
+    font-style: italic;
+    color: darkgray;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+/* EQUIPO ----------------------------*/
+#equipo {
+    padding: 40px 0 40px 0;
+    border-top: 0.5px lightgray solid;
+}
+.texto-equipo {
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+.instructor {
+    border-radius: 10px;
+}
+.instructor:hover {
+    transform: scale(1.02);
+    border: 0.5px solid lightgray;
+}
+.card {
+    border: none;
+}
+.faixa {
+    color: #ab7a38;
+}
+/* HORARIO ----------------------------*/
+#horario {
+    background-color: rgb(244, 244, 244);
+    padding: 40px 0 40px 0;
+    border-top: 0.5px lightgray solid;
+    text-align: center;
+}
+.texto-horario {
+    padding-bottom: 20px;
+}
+.imagen-horario {
+    border-radius: 10px;
+}
+/* VOLVER ARRIBA ----------------------------*/
+.volver-arriba {
+    text-align: right;
+    background-color: lightgrey;
+}
+.chevron-editado {
+    padding-right: 15px;
+    color: red;
+    font-size: 1.5rem;
+}
+/* FOOTER ----------------------------*/
+footer {
+    background-image: url(../imagenes/bg-footer.png);
+    background-repeat: repeat;
+    gap: 15px;
+    padding: 15px;
+}
+.texto-footer {
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+}
+.social-iconos {
+    display: flex;
+    gap: 10px;
+    font-size: 1rem;
+}
+.social-iconos a {
+    color: whitesmoke;
+}
+.social-iconos a:hover {
+    color: red;
+}
+@media (max-width: 768px) {
+    .social-iconos {
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .texto-footer {
+        justify-content: center;
+    }
+}
+.link-footer {
+    color: red;
+    text-decoration: none;
+}
+.link-footer:hover {
+    color: red;
+    text-decoration: none;
+}
+/* PROGRAMA ----------------------------*/
+.texto-programa {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.container-imagen-programa {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+.texto-descarga-programa {
+    text-align: center;
+    padding: 20px 0;
+}
+/* REGLAS ----------------------------*/
+.container-imagen-reglas {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 30px 10px;
+}
+.texto-reglas {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+/* CONTACTO ----------------------------*/
+#contacto {
+    padding: 0 0 40px 0;
+}
+.texto-contacto {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.tabla-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fila-contacto {
+    display: flex;
+    flex-direction: row;
+}
+.celda-contacto {
+    width: 600px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.celda-contacto img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .celda-contacto {
+        width: 350px;
+    }
+}
+.texto-celda {
+    text-align: center;
+    padding-left: 20px;
+}
+#ubicacion {
+    background-color: rgb(244, 244, 244);
+    padding: 20px 0 40px 0;
+}
+.texto-ubicacion {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.detalle-texto-ubicacion {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: small;
+    color: rgb(106, 104, 104);
+}
+.google-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-map iframe {
+    width: 80%;
+    height: 400px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+/* BLOG ----------------------------*/
+.texto-blog {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.titulo-blogpost {
+    margin: 30px;
+}
+.fecha-blogpost {
+    margin-top: 30px;
+}
+.blogpost {
+    background-color: rgba(233, 231, 231, 0.755);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
