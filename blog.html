@@ -10,6 +10,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
 </head>
 <body>
@@ -41,9 +42,9 @@
           </div>
         </div>
       </nav>
-        <div class="fondo-header">
-          <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2"><img src="./imagenes/logo_texto.png" alt="ADBJJ" class="img-fluid logo-texto"></div>
-          <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2 text-center texto-header"><h3>Academia de Artes Marciales</h3></div>
+        <div class="fondo-header" data-aos="fade-down">
+          <div data-aos="fade-right" class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2"><img src="./imagenes/logo_texto.png" alt="ADBJJ" class="img-fluid logo-texto"></div>
+          <div data-aos="fade-left" class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2 text-center texto-header"><h3>Academia de Artes Marciales</h3></div>
         </div>
     </header>
     <section>
@@ -51,7 +52,7 @@
             <h1>Blog</h1>
             <h5 class="subtitulo">¡Mantente al dia con nuestras ultimas noticias!</h5>
         </div>
-        <div class="container blogpost">
+        <div class="container blogpost" data-aos="flip-up">
           <div class="row justify-content-center">
             <div class="col-10 text-center"><h3 class="titulo-blogpost">Mi primer post de blog</h3></div>
             <div class="col-10 col-md-10 col-lg-6">
@@ -86,5 +87,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/init-aos.js"></script>
 </body>
 </html>

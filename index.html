@@ -10,6 +10,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
 </head>
 <body>
@@ -41,9 +42,9 @@
           </div>
         </div>
       </nav>
-        <div class="fondo-header">
-          <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2"><img src="./imagenes/logo_texto.png" alt="ADBJJ" class="img-fluid logo-texto"></div>
-          <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2 text-center texto-header"><h3>Academia de Artes Marciales</h3></div>
+        <div class="fondo-header" data-aos="fade-down">
+          <div data-aos="fade-right" class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2"><img src="./imagenes/logo_texto.png" alt="ADBJJ" class="img-fluid logo-texto"></div>
+          <div data-aos="fade-left" class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-8 offset-2 text-center texto-header"><h3>Academia de Artes Marciales</h3></div>
         </div>
     </header>
     <section id="quienes-somos">
@@ -56,7 +57,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-lg-6">
-                  <div id="carousel-adbjj" class="carousel slide">
+                  <div id="carousel-adbjj" class="carousel slide" data-aos="fade-right">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./imagenes/quienes-somos1.jpg" class="d-block w-100 imagen-quienes-somos" alt="¿Quienes somos? Un grupo de amigos">
@@ -109,7 +110,7 @@
               </div>
               <div class="row justify-content-center">
                 <div class="col-9 col-md-4 col-lg-3">
-                  <div class="card">
+                  <div class="card" data-aos="flip-up">
                     <img src="./imagenes/jose.jpg" class="card-img-top instructor" alt="Jose Perez">
                     <div class="card-body text-center">
                       <h4 class="card-title">Jose Perez</h4>
@@ -119,7 +120,7 @@
                   </div>
                 </div>
                 <div class="col-9 col-md-4 col-lg-3">
-                  <div class="card">
+                  <div class="card" data-aos="flip-up">
                     <img src="./imagenes/jm.jpg" class="card-img-top instructor" alt="Juan Manuel Figueiro">
                     <div class="card-body text-center">
                       <h4 class="card-title">Manuel Figueiro</h4>
@@ -129,7 +130,7 @@
                   </div>
                 </div>
                 <div class="col-9 col-md-4 col-lg-3">
-                  <div class="card">
+                  <div class="card" data-aos="flip-up">
                     <img src="./imagenes/daniel.jpg" class="card-img-top instructor" alt="Daniel Doughman">
                     <div class="card-body text-center">
                       <h4 class="card-title">Daniel Doughman</h4>
@@ -150,7 +151,7 @@
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8">
+            <div class="col-sm-12 col-md-8" data-aos="fade-left">
               <img src="./imagenes/cal.jpg" class="img-fluid imagen-horario" alt="nuestro horario">
             </div>
           </div>
@@ -180,5 +181,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/init-aos.js"></script>
 </body>
 </html>
