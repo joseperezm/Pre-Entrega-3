@@ -287,25 +287,7 @@ footer {
     border: 1px solid red;
     border-radius: 10px;
 }
-/* BLOG ----------------------------*/
-.titulo-blog {
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-}
-.titulo-blogpost {
-    margin: 30px;
-}
-.imagen-blogpost {
-    border-radius: 10px;
-}
-.fecha-blogpost {
-    margin-top: 30px;
-}
-.blogpost {
-    background-color: rgba(233, 231, 231, 0.755);
-    border-radius: 10px;
-    margin-bottom: 40px;
-}
+/*--- FORMULARIO CONTACTO ---*/
 form {
     margin: 20px auto;
     max-width: 700px;
@@ -324,4 +306,23 @@ form {
 textarea {
     resize: none;
     height: 100px;
+}
+/* BLOG ----------------------------*/
+.titulo-blog {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.titulo-blogpost {
+    margin: 30px;
+}
+.imagen-blogpost {
+    border-radius: 10px;
+}
+.fecha-blogpost {
+    margin-top: 30px;
+}
+.blogpost {
+    background-color: rgba(233, 231, 231, 0.755);
+    border-radius: 10px;
+    margin-bottom: 40px;
 }
