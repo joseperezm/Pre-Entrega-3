@@ -143,16 +143,6 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
-.menu-mapa-de-sitio {
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-}
-.mapa-de-sitio {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-}
 .social-iconos {
     display: flex;
     justify-content: flex-end;
@@ -165,6 +155,19 @@ footer {
 .social-iconos a:hover {
     color: red;
 }
+.tabla-mapa-de-sitio {
+    display: flex;
+    justify-content: flex-start;
+}
+.tabla-mapa-de-sitio a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.tabla-mapa-de-sitio td {
+    padding-bottom: 12px;
+}
 @media (max-width: 768px) {
     .social-iconos {
         justify-content: center;
@@ -175,6 +178,10 @@ footer {
     }
     .mapa-de-sitio {
         justify-content: center;
+    }
+    .tabla-mapa-de-sitio {
+        justify-content: center;
+        margin-top: 10px;
     }
 }
 .link-footer {
