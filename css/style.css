@@ -317,6 +317,7 @@ textarea {
 }
 .imagen-blogpost {
     border-radius: 10px;
+    max-width: 400px;
 }
 .fecha-blogpost {
     margin-top: 30px;
