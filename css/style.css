@@ -139,12 +139,23 @@ footer {
     padding: 15px;
 }
 .texto-footer {
+    color: whitesmoke;
     display: flex;
     justify-content: flex-end;
+}
+.menu-mapa-de-sitio {
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
+}
+.mapa-de-sitio {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
 }
 .social-iconos {
     display: flex;
+    justify-content: flex-end;
     gap: 10px;
     font-size: 1rem;
 }
@@ -160,6 +171,9 @@ footer {
         font-size: 2rem;
     }
     .texto-footer {
+        justify-content: center;
+    }
+    .mapa-de-sitio {
         justify-content: center;
     }
 }
@@ -264,12 +278,15 @@ footer {
     border-radius: 10px;
 }
 /* BLOG ----------------------------*/
-.texto-blog {
+.titulo-blog {
     text-align: center;
     padding: 40px 0px 40px 0px;
 }
 .titulo-blogpost {
     margin: 30px;
+}
+.imagen-blogpost {
+    border-radius: 10px;
 }
 .fecha-blogpost {
     margin-top: 30px;
