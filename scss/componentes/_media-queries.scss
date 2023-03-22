@@ -1,0 +1,32 @@
+@media (max-width: 992px) {
+	.nav-right {
+		justify-content: center;
+		text-align: center;
+		font-size: map-get($tamano_fuente, grande);
+	}
+	.descripcion-quienes-somos {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 768px) {
+	.fondo-header {
+		height: 250px;
+	}
+	.social-iconos {
+		justify-content: center;
+		font-size: 20px;
+	}
+	.texto-footer {
+		justify-content: center;
+	}
+	.mapa-de-sitio {
+		justify-content: center;
+	}
+	.tabla-mapa-de-sitio {
+		justify-content: center;
+		margin-top: 10px;
+	}
+	.celda-contacto {
+		width: 350px;
+	}
+}

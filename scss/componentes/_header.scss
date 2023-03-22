@@ -1,0 +1,15 @@
+.fondo-header {
+	height: 350px;
+	@include fondo-header ("../imagenes/bg.webp");
+}
+.texto-header {
+	color: $color_gris_claro_1;
+	font-style: italic;
+}
+.logo-header {
+	width: 50px;
+	margin-left: 20px;
+}
+.logo-texto {
+	padding-top: 50px;
+}

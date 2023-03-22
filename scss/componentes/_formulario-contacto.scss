@@ -1,0 +1,19 @@
+form {
+	margin: 20px auto;
+	max-width: 700px;
+}
+.form-control {
+	border-color: $color_rojo;
+}
+.btn-formulario {
+	color: $color_rojo;
+	border-color: $color_rojo;
+	&:hover {
+		color: $color_whitesmoke;
+		background-color: $color_rojo;
+	}
+}
+textarea {
+	resize: none;
+	height: 100px;
+}

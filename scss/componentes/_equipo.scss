@@ -1,0 +1,21 @@
+#equipo {
+	padding: 40px 0 40px 0;
+	border-top: 0.5px lightgray solid;
+}
+.texto-equipo {
+	text-align: center;
+	padding: 0px 0px 40px 0px;
+}
+.instructor {
+	border-radius: map-get($radio-borde, 10);
+	&:hover {
+		transform: scale(1.02);
+		border: 0.5px solid lightgray;
+	}
+}
+.card {
+	border: none;
+}
+.faixa {
+	color: $color_cafe;
+}

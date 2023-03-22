@@ -1,0 +1,26 @@
+#ubicacion {
+	background-color: $color_gris_claro_3;
+	padding: 20px 0 40px 0;
+}
+.texto-ubicacion {
+	text-align: center;
+	padding: 20px 0px 40px 0px;
+}
+.detalle-texto-ubicacion {
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+	color: $color_gris_oscuro_2
+;
+}
+.google-map {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	iframe {
+		width: 80%;
+		height: 400px;
+		border: 1px solid red;
+		border-radius: map-get($radio-borde, 10);
+	}
+}

@@ -1,0 +1,12 @@
+#horario {
+	background-color: $color_gris_claro_3;
+	padding: 40px 0 40px 0;
+	border-top: 0.5px lightgray solid;
+	text-align: center;
+}
+.texto-horario {
+	padding-bottom: 20px;
+}
+.imagen-horario {
+	border-radius: map-get($radio-borde, 10);
+}

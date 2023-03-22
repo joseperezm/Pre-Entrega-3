@@ -1,0 +1,12 @@
+.texto-programa {
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+}
+.container-imagen-programa {
+	@extend %dflex-center;
+	margin: 0 10px;
+}
+.texto-descarga-programa {
+	text-align: center;
+	padding: 20px 0;
+}

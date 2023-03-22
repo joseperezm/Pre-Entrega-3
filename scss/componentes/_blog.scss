@@ -1,0 +1,18 @@
+.titulo-blog {
+	@extend %texto-centrado-padding;
+}
+.titulo-blogpost {
+	margin: 30px;
+}
+.imagen-blogpost {
+	border-radius: map-get($radio-borde, 10);
+	max-width: 400px;
+}
+.fecha-blogpost {
+	margin-top: 30px;
+}
+.blogpost {
+	background-color: $color_gris_claro_2;
+	border-radius: map-get($radio-borde, 10);
+	margin-bottom: 40px;
+}
