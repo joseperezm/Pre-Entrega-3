@@ -66,6 +66,9 @@ body {
   color: rgba(231, 227, 227, 0.69);
   font-style: italic;
 }
+.texto-header h3 {
+  font-size: 24px;
+}
 
 .logo-header {
   width: 50px;
@@ -331,6 +334,7 @@ textarea {
 
 .fecha-blogpost {
   margin-top: 30px;
+  font-size: 12px;
 }
 
 .blogpost {

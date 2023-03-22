@@ -5,6 +5,9 @@
 .texto-header {
 	color: $color_gris_claro_1;
 	font-style: italic;
+	h3 {
+		font-size: map-get($tamano-fuente, grande);
+	}
 }
 .logo-header {
 	width: 50px;

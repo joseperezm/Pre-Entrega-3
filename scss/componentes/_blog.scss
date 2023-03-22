@@ -10,6 +10,7 @@
 }
 .fecha-blogpost {
 	margin-top: 30px;
+	font-size: map-get($tamano-fuente, chico);
 }
 .blogpost {
 	background-color: $color_gris_claro_2;
